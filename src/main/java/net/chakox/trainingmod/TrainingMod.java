@@ -1,6 +1,7 @@
 package net.chakox.trainingmod;
 
 import com.mojang.logging.LogUtils;
+import net.chakox.trainingmod.block.ModBlocks;
 import net.chakox.trainingmod.item.ModCreativeModTabs;
 import net.chakox.trainingmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,6 +26,7 @@ public class TrainingMod
 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "trainingmod";
+
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -34,6 +36,7 @@ public class TrainingMod
 
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

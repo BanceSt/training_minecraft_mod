@@ -1,5 +1,9 @@
 {
   "item.trainingmod.sapphire": "Sapphire",
   "item.trainingmod.raw_sapphire": "Raw Sapphire",
+
+  "block.trainingmod.sapphire_block": "Block of Sapphire",
+  "block.trainingmod.raw_sapphire_block": "Block of Raw Sapphire",
+
   "creativetab.training_tab": "Training mod items"
 }
