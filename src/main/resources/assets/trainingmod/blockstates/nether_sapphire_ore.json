@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model" : "trainingmod:block/nether_sapphire_ore"
+    }
+  }
+}

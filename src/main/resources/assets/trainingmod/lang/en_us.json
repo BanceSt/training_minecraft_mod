@@ -5,5 +5,10 @@
   "block.trainingmod.sapphire_block": "Block of Sapphire",
   "block.trainingmod.raw_sapphire_block": "Block of Raw Sapphire",
 
+  "block.trainingmod.sapphire_ore": "Sapphire Ore",
+  "block.trainingmod.deepslate_sapphire_ore" : "Deepslate Sapphire Ore",
+  "block.trainingmod.nether_sapphire_ore" : "Nether Sapphire Ore",
+  "block.trainingmod.end_stone_sapphire_ore" : "End Stone Sapphire Ore",
+
   "creativetab.training_tab": "Training mod items"
 }
