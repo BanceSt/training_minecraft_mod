@@ -17,5 +17,7 @@
   "block.trainingmod.nether_sapphire_ore" : "Nether Sapphire Ore",
   "block.trainingmod.end_stone_sapphire_ore" : "End Stone Sapphire Ore",
 
-  "creativetab.training_tab": "Training mod items"
+  "creativetab.training_tab": "Training mod items",
+
+  "tooltip.trainingmod.metal_detector" : "Finds Valuable item underground"
 }
