@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model" : "trainingmod:block/sound_block"
+    }
+  }
+}
