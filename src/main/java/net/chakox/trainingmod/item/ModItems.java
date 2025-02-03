@@ -1,6 +1,7 @@
 package net.chakox.trainingmod.item;
 
 import net.chakox.trainingmod.TrainingMod;
+import net.chakox.trainingmod.item.custom.FuelItem;
 import net.chakox.trainingmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+            () -> new FuelItem(new Item.Properties(), 8000));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
