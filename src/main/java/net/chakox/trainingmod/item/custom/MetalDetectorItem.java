@@ -1,5 +1,6 @@
 package net.chakox.trainingmod.item.custom;
 
+import net.chakox.trainingmod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -67,6 +68,6 @@ public class MetalDetectorItem  extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.DIAMOND_ORE);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 }
