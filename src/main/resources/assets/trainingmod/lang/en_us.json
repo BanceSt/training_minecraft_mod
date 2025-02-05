@@ -17,6 +17,18 @@
   "block.trainingmod.nether_sapphire_ore" : "Nether Sapphire Ore",
   "block.trainingmod.end_stone_sapphire_ore" : "End Stone Sapphire Ore",
 
+  "block.trainingmod.sapphire_stair": "Sapphire Stair",
+  "block.trainingmod.sapphire_slab": "Sapphire Slab",
+  "block.trainingmod.sapphire_button": "Sapphire Button",
+  "block.trainingmod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.trainingmod.sapphire_fence": "Sapphire Fence",
+  "block.trainingmod.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.trainingmod.sapphire_wall": "Sapphire Wall",
+  "block.trainingmod.sapphire_door": "Sapphire Door",
+  "block.trainingmod.sapphire_trap_door": "Sapphire Trap Door",
+
+
+
   "creativetab.training_tab": "Training mod items",
 
   "tooltip.trainingmod.metal_detector" : "Finds Valuable item underground"
