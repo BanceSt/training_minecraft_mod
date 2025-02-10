@@ -37,11 +37,23 @@ public class ModItemModelProvider extends ItemModelProvider {
         buttonInventory("sapphire_button", modLoc("block/sapphire_block"));
         wallInventory("sapphire_wall", modLoc("block/sapphire_block"));
         trapdoorBottom("sapphire_trap_door", modLoc("block/sapphire_trap_door"));
+
+        handhelditem(ModItems.SAPPHIRE_SWORD);
+        handhelditem(ModItems.SAPPHIRE_PICKAXE);
+        handhelditem(ModItems.SAPPHIRE_AXE);
+        handhelditem(ModItems.SAPPHIRE_SHOVEL);
+        handhelditem(ModItems.SAPPHIRE_HOE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(TrainingMod.MOD_ID, "item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handhelditem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
                 new ResourceLocation(TrainingMod.MOD_ID, "item/" + item.getId().getPath()));
     }
 

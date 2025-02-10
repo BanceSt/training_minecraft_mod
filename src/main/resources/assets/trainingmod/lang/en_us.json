@@ -9,6 +9,13 @@
 
   "item.trainingmod.metal_detector": "Metal Detector",
 
+  "item.trainingmod.sapphire_sword": "Sapphire Sword",
+  "item.trainingmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.trainingmod.sapphire_axe": "Sapphire Axe",
+  "item.trainingmod.sapphire_shovel": "Sapphire Shovel",
+  "item.trainingmod.sapphire_hoe": "Sapphire Hoe",
+
+
   "block.trainingmod.sapphire_block": "Block of Sapphire",
   "block.trainingmod.raw_sapphire_block": "Block of Raw Sapphire",
   "block.trainingmod.sound_block": "Sound Block",
