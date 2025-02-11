@@ -2,6 +2,7 @@ package net.chakox.trainingmod;
 
 import com.mojang.logging.LogUtils;
 import net.chakox.trainingmod.block.ModBlocks;
+import net.chakox.trainingmod.item.ModArmorMaterials;
 import net.chakox.trainingmod.item.ModCreativeModTabs;
 import net.chakox.trainingmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -37,6 +38,7 @@ public class TrainingMod
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModArmorMaterials.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
