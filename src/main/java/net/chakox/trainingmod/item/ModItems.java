@@ -3,6 +3,7 @@ package net.chakox.trainingmod.item;
 import net.chakox.trainingmod.TrainingMod;
 import net.chakox.trainingmod.item.custom.FuelItem;
 import net.chakox.trainingmod.item.custom.MetalDetectorItem;
+import net.chakox.trainingmod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -43,7 +44,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.SAPPHIRE, new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
-            () -> new ArmorItem(ModArmorMaterials.getHolder(ModArmorMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.getHolder(ModArmorMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
             () -> new ArmorItem(ModArmorMaterials.getHolder(ModArmorMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
