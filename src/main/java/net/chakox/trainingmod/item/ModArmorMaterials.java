@@ -4,10 +4,10 @@ package net.chakox.trainingmod.item;
 import net.chakox.trainingmod.TrainingMod;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,7 +30,7 @@ public class ModArmorMaterials  {
                             15,
                     SoundEvents.ARMOR_EQUIP_DIAMOND,
                     () -> Ingredient.of(ModItems.SAPPHIRE.get()),
-                    List.of(),
+                    List.of(new ArmorMaterial.Layer(new ResourceLocation("trainingmod", "sapphire"))),
                     0.0f, 0.0f));
 
 
