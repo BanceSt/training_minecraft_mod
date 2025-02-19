@@ -5,6 +5,7 @@ import net.chakox.trainingmod.block.ModBlocks;
 import net.chakox.trainingmod.item.ModArmorMaterials;
 import net.chakox.trainingmod.item.ModCreativeModTabs;
 import net.chakox.trainingmod.item.ModItems;
+import net.chakox.trainingmod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -39,6 +40,7 @@ public class TrainingMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModArmorMaterials.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
